@@ -35,8 +35,14 @@ class Account {
 }
 
 
+class SavingsAcc extends Account {
+	super(name, age, amount) {
+	}	
+}
+
+
 //export an instance 
 module.exports = {
-	Ade : new Account("Adeoluwa Adejumo", 5, 5000)
-	Victoria: new SavingsAcc("Victoria Offoma" 19, 50000)
+	Ade : new Account("Adeoluwa Adejumo", 20, 5000),
+	Victoria: new SavingsAcc("Victoria Offoma", 19, 50000)
 }
