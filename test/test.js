@@ -41,7 +41,7 @@ describe("Bank Account Suite", function(){
   	//proove that the  WITHDRAW METHOD has a correct implentation
   	describe("WITHDRAW Method for Savings Account class", function() {
     	it("should return Transaction sucess", function() {
-      expect(Victoria.withdraw(20000)).to.equal(30000);
+      expect(Victoria.withdraw(20000)).to.equal("TRANSACTION SUCCESSFUL: You have withdrawn 20000 in your account");
   	})});
 
 
