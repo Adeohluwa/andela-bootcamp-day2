@@ -44,5 +44,11 @@ describe("Bank Account Suite", function(){
       expect(Victoria.withdraw(20000)).to.equal("TRANSACTION SUCCESSFUL: You have withdrawn 20000 in your account");
   	})});
 
+  	//proove that CURRENT ACCOUNT CLASS has a correct implentation
+  	describe("CURRENT Account class is implemented", function() {
+    	it("should return Current account balance", function() {
+      expect(Tomi._balance).to.equal(1000000);
+  	})});
+
 
 })
