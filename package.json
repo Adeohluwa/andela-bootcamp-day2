@@ -1,0 +1,33 @@
+{
+  "name": "andela-bootcamp-day2",
+  "version": "1.0.0",
+  "description": "An OOP Model of a bank account",
+  "main": "bank.js",
+  "dependencies": {
+    "chai": "^4.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adeohluwa/andela-bootcamp-day2.git"
+  },
+  "keywords": [
+    "bank",
+    "OOP",
+    "TDD",
+    "tests",
+    "mocha",
+    "chai"
+  ],
+  "author": "Adeoluwa Adejumo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Adeohluwa/andela-bootcamp-day2/issues"
+  },
+  "homepage": "https://github.com/Adeohluwa/andela-bootcamp-day2#readme"
+}
