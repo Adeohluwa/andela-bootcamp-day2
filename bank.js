@@ -64,9 +64,13 @@ class CurrentAcc extends Account {
 		return "TRANSACTION ERROR!";
 	}
 
-	// overdraft(){
-
-	// }
+	overdraft(amount){
+		if (amount <= (this._balance * 3)){
+			this._balance -= amount
+			return "TRANSACTION SUCCESSFUL: You have accessed an overdraft of "+ amount;
+		}
+		return "TRANSACTION ERROR!";
+	}
 }
 
 
