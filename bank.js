@@ -26,8 +26,14 @@ class Account {
 		}
 		
 	}
+
+	//balance method for account class
+	balance(){
+		this._balance;
+		return "TRANSACTION SUCCESSFUL: You have " + this._balance + " in your account";
+	}
 }
 
 
 //export an instance 
-module.exports = {Ade : new Account("Adeoluwa Adejumo", 5, 5000)} 
+module.exports = {Ade : new Account("Adeoluwa Adejumo", 5, 5000)}
