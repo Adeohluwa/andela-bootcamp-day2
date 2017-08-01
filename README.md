@@ -33,4 +33,4 @@ Start The App
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE.txt)
