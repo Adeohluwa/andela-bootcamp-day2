@@ -10,7 +10,7 @@ const Ade = require("../bank.js").Ade;
 
 
 describe('Bank Account Suite', function(){
-	describe('Initial account balance', function() {
+	describe('Initial account balance should be N5000', function() {
     	it('should be 5000', function() {
       expect(Ade._balance).to.equal(5000);
   	})});

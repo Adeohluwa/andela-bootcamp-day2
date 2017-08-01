@@ -3,6 +3,8 @@
 //few operations and and large data sets
 
 
+//Base account model implements the standard features 
+
 class Account {
 	constructor(name, age, amount) {
 		this._name = name;
@@ -11,4 +13,6 @@ class Account {
 	}
 }
 
+
+//export an instance 
 module.exports = {Ade : new Account("Adeoluwa Adejumo", 5, 5000)} 
