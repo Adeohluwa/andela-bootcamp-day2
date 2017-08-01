@@ -11,6 +11,12 @@ class Account {
 		this._age = age;
 		this._balance = amount;	
 	}
+
+	//deposit method for account class
+	deposit(amount){
+		this._balance += amount;
+		return "TRANSACTION SUCCESSFUL: You have deposited " + amount;
+	}
 }
 
 
