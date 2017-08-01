@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "An OOP Model of a bank account",
   "main": "bank.js",
-  "dependencies": {
-    "chai": "^4.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "chai": "^4.1.0",
     "mocha": "^3.5.0"
   },
   "scripts": {
