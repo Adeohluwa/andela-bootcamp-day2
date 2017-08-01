@@ -56,5 +56,10 @@ describe("Bank Account Suite", function(){
       expect(Tomi.withdraw(100000)).to.equal("TRANSACTION SUCCESSFUL: You have withdrawn 100000 in your account");
   	})});
 
+  	//assert that OVERDRAFT  is successful
+  	describe("OVERDRAFT Method for Current Account class", function() {
+    	it("should return Transaction success", function() {
+      expect(Tomi.overdraft(1500000)).to.equal("TRANSACTION SUCCESSFUL: You have accessed an overdraft of 1500000");
+  	})});
 
 })
