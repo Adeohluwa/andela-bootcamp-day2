@@ -7,6 +7,7 @@
 
 const expect = require("chai").expect;
 const Ade = require("../bank.js").Ade;
+const Victoria = require("../bank.js").Victoria;
 
 
 describe("Bank Account Suite", function(){
@@ -29,6 +30,12 @@ describe("Bank Account Suite", function(){
   	describe("BALANCE method for class account", function() {
     	it("should return success msg", function() {
       expect(Ade.balance()).to.equal("TRANSACTION SUCCESSFUL: You have 5000 in your account");
+  	})});
+
+  	//proove that the SAVINGS ACCOUNT CLASS works as intented
+  	describe("SAVINGS Account class working correctly", function() {
+    	it("should return savings account balance", function() {
+      expect(Victoria._balance).to.equal(50000);
   	})});
 
 
