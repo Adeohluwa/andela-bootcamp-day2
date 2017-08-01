@@ -17,6 +17,15 @@ class Account {
 		this._balance += amount;
 		return "TRANSACTION SUCCESSFUL: You have deposited " + amount;
 	}
+
+	//withdraw method for account class
+	withdraw(amount){
+		if (amount < this._balance) {
+			this._balance -= amount;	
+			return "TRANSACTION SUCCESSFUL: You have withdrawn " + amount;
+		}
+		
+	}
 }
 
 
