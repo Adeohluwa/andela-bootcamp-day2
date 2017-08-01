@@ -11,22 +11,22 @@ const Victoria = require("../bank.js").Victoria;
 
 
 describe("Bank Account Suite", function(){
-	//assert that initial balance is 5000
+	//assert that INITIAL BALANCE is 5000
 	describe("INITIAL account balance should be N5000", function() {
     	it("should be 5000", function() {
       expect(Ade._balance).to.equal(5000);
   	})});
-	//assert that the deposit method works correctly
+	//assert that the DEPOSIT METHOD works correctly
   	describe("DEPOSIT method for class account", function() {
     	it("should return success msg", function() {
       expect(Ade.deposit(5000)).to.equal("TRANSACTION SUCCESSFUL: You have deposited 5000");
   	})});
-  	//assert that the withdraw method works correctly
+  	//assert that the WITHDRAW METHOD works correctly
   	describe("WITHDRAW method for class account", function() {
     	it("should return success msg", function() {
       expect(Ade.withdraw(5000)).to.equal("TRANSACTION SUCCESSFUL: You have withdrawn 5000");
   	})});
-  	//assert that balance method works correctly
+  	//assert that BALANCE METHOD works correctly
   	describe("BALANCE method for class account", function() {
     	it("should return success msg", function() {
       expect(Ade.balance()).to.equal("TRANSACTION SUCCESSFUL: You have 5000 in your account");
@@ -38,6 +38,11 @@ describe("Bank Account Suite", function(){
       expect(Victoria._balance).to.equal(50000);
   	})});
 
+  	//proove that the  WITHDRAW METHOD has a correct implentation
+  	describe("WITHDRAW Method for Savings Account class", function() {
+    	it("should return Transaction sucess", function() {
+      expect(Victoria.withdraw(20000)).to.equal(30000);
+  	})});
 
 
 })
