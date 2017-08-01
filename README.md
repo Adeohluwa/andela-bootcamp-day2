@@ -21,15 +21,15 @@
 
 How To Run
 
-    ```git clone```
+    git clone
 
 Install The Dependencies
 
-    ```npm install```
+    npm install
 
 Start The App
 
-   ```npm start```
+   npm start
 
 ## License
 
