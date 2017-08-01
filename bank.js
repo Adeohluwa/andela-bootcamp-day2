@@ -40,7 +40,7 @@ class Account {
 class SavingsAcc extends Account {
 	super(name, age, amount) {
 	}
-
+	//withdraw method for saving account class
 	withdraw(amount){
 		if (amount < (this._balance + 5000)) {
 			this._balance -= amount
@@ -56,6 +56,17 @@ class CurrentAcc extends Account {
 	super(name, age, amount) {
 	}
 	
+	withdraw(amount){
+		if (amount < (this._balance + 10000)) {
+			this._balance -= amount
+			return "TRANSACTION SUCCESSFUL: You have withdrawn " + amount + " in your account";
+		}
+		return "TRANSACTION ERROR!";
+	}
+
+	// overdraft(){
+
+	// }
 }
 
 
