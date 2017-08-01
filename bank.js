@@ -36,4 +36,7 @@ class Account {
 
 
 //export an instance 
-module.exports = {Ade : new Account("Adeoluwa Adejumo", 5, 5000)}
+module.exports = {
+	Ade : new Account("Adeoluwa Adejumo", 5, 5000)
+	Victoria: new SavingsAcc("Victoria Offoma" 19, 50000)
+}
