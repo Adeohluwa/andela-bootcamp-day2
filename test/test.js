@@ -8,6 +8,8 @@
 const expect = require('chai').expect;
 
 describe('Bank Account Suite', function(){
-	it('Should Return 5000',function(){
-    	expect(Ade.balance()).to.equal(5000);})
+	describe('Initial account balance', function() {
+    	it('should be 5000', function() {
+      expect(Ade.balance()).to.equal(5000);
+  	})})
 })
