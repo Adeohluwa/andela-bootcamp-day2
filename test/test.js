@@ -8,7 +8,7 @@
 const expect = require("chai").expect;
 const Ade = require("../bank.js").Ade;
 const Victoria = require("../bank.js").Victoria;
-
+const Tomi = require("../bank.js").Tomi;
 
 describe("Bank Account Suite", function(){
 	//assert that INITIAL BALANCE is 5000
@@ -38,7 +38,7 @@ describe("Bank Account Suite", function(){
       expect(Victoria._balance).to.equal(50000);
   	})});
 
-  	//proove that the  WITHDRAW METHOD has a correct implentation
+  	//proove that the  WITHDRAW METHOD for savings account has a correct implentation
   	describe("WITHDRAW Method for Savings Account class", function() {
     	it("should return Transaction sucess", function() {
       expect(Victoria.withdraw(20000)).to.equal("TRANSACTION SUCCESSFUL: You have withdrawn 20000 in your account");
@@ -48,6 +48,12 @@ describe("Bank Account Suite", function(){
   	describe("CURRENT Account class is implemented", function() {
     	it("should return Current account balance", function() {
       expect(Tomi._balance).to.equal(1000000);
+  	})});
+
+  	//assert that CURRENT ACCOUNT CLASS has a correct implentation
+  	describe("WITHDRAW Method for Current Account class", function() {
+    	it("should return Transaction success", function() {
+      expect(Tomi.withdraw(100000)).to.equal("TRANSACTION SUCCESSFUL: You have withdrawn 100000 in your account");
   	})});
 
 
