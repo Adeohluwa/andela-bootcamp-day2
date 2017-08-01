@@ -24,6 +24,8 @@ class Account {
 			this._balance -= amount;	
 			return "TRANSACTION SUCCESSFUL: You have withdrawn " + amount;
 		}
+
+		return "TRANSACTION ERROR!";
 		
 	}
 
@@ -37,12 +39,30 @@ class Account {
 
 class SavingsAcc extends Account {
 	super(name, age, amount) {
+	}
+
+	withdraw(amount){
+		if (amount < (this._balance + 5000)) {
+			this._balance -= amount
+			return "TRANSACTION SUCCESSFUL: You have withdrawn " + amount + " in your account";
+		}
+
+		return "TRANSACTION ERROR!";
 	}	
+}
+
+
+class CurrentAcc extends Account {
+	super(name, age, amount) {
+	}
+	
 }
 
 
 //export an instance 
 module.exports = {
-	Ade : new Account("Adeoluwa Adejumo", 20, 5000),
-	Victoria: new SavingsAcc("Victoria Offoma", 19, 50000)
+	Ade: new Account("Adeoluwa Adejumo", 20, 5000),
+	Victoria: new SavingsAcc("Victoria Offoma", 19, 50000),
+	Tomi: new CurrentAcc("Israel Tomilola", 17, 1000000)
+
 }
