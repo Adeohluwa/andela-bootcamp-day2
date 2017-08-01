@@ -15,7 +15,7 @@ describe("Bank Account Suite", function(){
       expect(Ade._balance).to.equal(5000);
   	})});
 
-  	describe("Initial account balance should be N5000", function() {
+  	describe("Deposit method for class account", function() {
     	it("should return success msg", function() {
       expect(Ade.deposit(5000)).to.equal("TRANSACTION SUCCESSFUL: You now have 4000 in your account");
   	})});
