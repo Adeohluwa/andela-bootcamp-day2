@@ -15,14 +15,21 @@ describe("Bank Account Suite", function(){
       expect(Ade._balance).to.equal(5000);
   	})});
 
-  	describe("Deposit method for class account", function() {
+  	describe("DEPOSIT method for class account", function() {
     	it("should return success msg", function() {
       expect(Ade.deposit(5000)).to.equal("TRANSACTION SUCCESSFUL: You have deposited 5000");
   	})});
 
-  	describe("Withdraw method for class account", function() {
+  	describe("WITHDRAW method for class account", function() {
     	it("should return success msg", function() {
       expect(Ade.withdraw(5000)).to.equal("TRANSACTION SUCCESSFUL: You have withdrawn 5000");
   	})});
+
+  	describe("BALANCE method for class account", function() {
+    	it("should return success msg", function() {
+      expect(Ade.balance()).to.equal(5000);
+  	})});
+
+
 
 })
