@@ -14,13 +14,13 @@
     *withdrawal limit
     
 
-How To Run:
+How To Run
     ```git clone```
 
-Install The Dependencies:
+Install The Dependencies
     ```npm install```
 
-Start The App:
+Start The App
    ```npm start```
 
 ## License
