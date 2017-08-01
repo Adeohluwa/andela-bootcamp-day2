@@ -10,3 +10,5 @@ class Account {
 		this._balance = amount;	
 	}
 }
+
+module.exports = {Ade : new Account("Adeoluwa Adejumo", 5, 5000)} 

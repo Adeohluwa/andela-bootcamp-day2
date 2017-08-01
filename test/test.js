@@ -6,10 +6,13 @@
 //see ---> mochajs.org/#arrow-functions
 
 const expect = require('chai').expect;
+const Ade = require("../bank.js").Ade;
+
 
 describe('Bank Account Suite', function(){
 	describe('Initial account balance', function() {
     	it('should be 5000', function() {
-      expect(Ade.balance()).to.equal(5000);
-  	})})
+      expect(Ade._balance).to.equal(5000);
+  	})});
+
 })
