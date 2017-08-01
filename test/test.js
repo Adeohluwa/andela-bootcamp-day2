@@ -17,7 +17,12 @@ describe("Bank Account Suite", function(){
 
   	describe("Deposit method for class account", function() {
     	it("should return success msg", function() {
-      expect(Ade.deposit(5000)).to.equal("TRANSACTION SUCCESSFUL: You now have 4000 in your account");
+      expect(Ade.deposit(5000)).to.equal("TRANSACTION SUCCESSFUL: You have deposited 5000");
+  	})});
+
+  	describe("Withdraw method for class account", function() {
+    	it("should return success msg", function() {
+      expect(Ade.withdraw(5000)).to.equal("TRANSACTION SUCCESSFUL: You have withdrawn 5000");
   	})});
 
 })
