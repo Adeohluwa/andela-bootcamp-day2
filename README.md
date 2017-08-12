@@ -1,4 +1,5 @@
 # OOP Model Of A Bank Account
+![MIT L](https://img.shields.io/github/license/mashape/apistatus.svg)
     
     *Account           --base model implements standard features all accounts should have 
     *Savings Account   --implements some features specific to a saving account e.g a low
@@ -19,17 +20,17 @@
   ###  Current Account Class 
         *overdraft method -- allows you withdraw x3 of your account balance
 
-How To Run
+### How To Run
 
-    git clone
+ ``` git clone https://github.com/Adeohluwa/andela-bootcamp-day2.git ```
 
-Install The Dependencies
+#### Install The Dependencies
 
-    npm install
+``` npm install ```
 
-Start The App
+#### Start The App
 
-   npm start
+  ``` npm start ```
 
 ## License
 
