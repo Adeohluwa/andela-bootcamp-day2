@@ -1,0 +1,10 @@
+language: nodejs
+
+nodejs:
+  - 8
+
+before_script:
+  npm install
+
+script:
+  npm test
