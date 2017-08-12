@@ -1,4 +1,6 @@
 # OOP Model Of A Bank Account
+![build](https://travis-ci.org/Adeohluwa/andela-bootcamp-day2.svg?branch=master)
+
 ![MIT L](https://img.shields.io/github/license/mashape/apistatus.svg)
     
     *Account           --base model implements standard features all accounts should have 
