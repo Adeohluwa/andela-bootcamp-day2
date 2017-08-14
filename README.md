@@ -1,7 +1,5 @@
 # OOP Model Of A Bank Account
-[![Build Status](https://travis-ci.org/Adeohluwa/andela-bootcamp-day2.svg?branch=master)](https://travis-ci.org/Adeohluwa/andela-bootcamp-day2)
-
-![MIT L](https://img.shields.io/github/license/mashape/apistatus.svg)
+![MIT L](https://img.shields.io/github/license/mashape/apistatus.svg) [![Build Status](https://travis-ci.org/Adeohluwa/andela-bootcamp-day2.svg?branch=master)](https://travis-ci.org/Adeohluwa/andela-bootcamp-day2) [![Coverage Status](https://coveralls.io/repos/github/Adeohluwa/andela-bootcamp-day2/badge.svg?branch=dev)](https://coveralls.io/github/Adeohluwa/andela-bootcamp-day2?branch=dev)  
     
     *Account           --base model implements standard features all accounts should have 
     *Savings Account   --implements some features specific to a saving account e.g a low
