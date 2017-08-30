@@ -1,6 +1,6 @@
 // Account class
 
-import Account from './Account';
+import { Account } from './Account';
 
 class SavingsAcc extends Account {
   // withdraw method for saving account class
@@ -18,4 +18,4 @@ class SavingsAcc extends Account {
 
 const Victoria = new SavingsAcc('Victoria Offoma', 19, 50000);
 
-export default Victoria;
+export { Victoria };

@@ -5,7 +5,7 @@
 
 // Base account model implements the standard features 
 
-class Account {
+export class Account {
   constructor(name, age, amount) {
     this.name = name;
     this.age = age;
@@ -41,4 +41,4 @@ class Account {
 
 const Ade = new Account('Adeoluwa Adejumo', 20, 5000);
 
-export default Ade;
+export { Ade };

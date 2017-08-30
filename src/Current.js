@@ -1,6 +1,6 @@
 // Current account class
 
-import Account from './Account';
+import { Account } from './Account';
 
 class CurrentAcc extends Account {
   // withdrawal method for current account class
@@ -25,4 +25,4 @@ class CurrentAcc extends Account {
 // export an instance 
 
 const Tomi = new CurrentAcc('Israel Tomilola', 17, 1000000);
-export default Tomi;
+export {Tomi} ;
