@@ -9,15 +9,15 @@
 
 ## Some Features Implemented
 
-  ###  Account Class
+###  Account Class
         *deposit    -- adds money to the account  
         *withdrawal  --gets money from the account
         *balance     --returns available money in the account
 
-  ###  Savings Account Class
+###  Savings Account Class
         * low withdrawal limit -- allows you withdraw till you have N5000 as balance
     
-  ###  Current Account Class 
+###  Current Account Class 
         * overdraft method -- allows you withdraw x3 of your account balance
 
 ### How To Run

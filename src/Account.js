@@ -37,9 +37,8 @@ class Account {
   }
 }
 
-
 // export an instance 
 
 const Ade = new Account('Adeoluwa Adejumo', 20, 5000);
 
-export default { Ade };
+export default Ade;

@@ -1,4 +1,4 @@
-// aaaaaaaaaaaaaaaa
+// Account class
 
 import Account from './Account';
 
