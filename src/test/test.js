@@ -20,7 +20,7 @@ describe('Bank Account Suite', () => {
   describe('DEPOSIT method for class account', () => {
     it('should return success msg', () => {
       expect(Ade.deposit(5000)).to.equal('TRANSACTION SUCCESSFUL: You have deposited 5000');
-    })
+    });
   });
   // assert that the WITHDRAW METHOD works correctly
   describe('WITHDRAW method for class account', () => {
@@ -31,7 +31,7 @@ describe('Bank Account Suite', () => {
   // assert that BALANCE METHOD works correctly
   describe('BALANCE method for class account', () => {
     it('should return success msg', () => {
-      expect(Ade.balance()).to.equal('TRANSACTION SUCCESSFUL: You have 5000 in your account');
+      expect(Ade.balance).to.equal(5000);
     });
   });
 

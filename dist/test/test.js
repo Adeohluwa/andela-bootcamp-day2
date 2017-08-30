@@ -33,7 +33,7 @@ describe('Bank Account Suite', function () {
   // assert that BALANCE METHOD works correctly
   describe('BALANCE method for class account', function () {
     it('should return success msg', function () {
-      expect(Ade.balance()).to.equal('TRANSACTION SUCCESSFUL: You have 5000 in your account');
+      expect(Ade.balance).to.equal(5000);
     });
   });
 

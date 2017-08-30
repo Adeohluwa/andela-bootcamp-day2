@@ -25,4 +25,4 @@ class CurrentAcc extends Account {
 // export an instance 
 
 const Tomi = new CurrentAcc('Israel Tomilola', 17, 1000000);
-export { Tomi } ;
+export { Tomi };
